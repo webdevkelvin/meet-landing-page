@@ -1,0 +1,78 @@
+.photo-gallery {
+  margin-top: 19.625rem;
+  position: relative;
+  margin-bottom: 11.5rem;
+}
+
+.photo-gallery--pics {
+  display: flex;
+  max-width: 69.375rem;
+  margin: 0 auto;
+  gap: 1.875rem;
+  margin-bottom: 5rem;
+}
+
+.photo-gallery--img {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}
+
+.photo-gallery--text-box {
+  text-align: center;
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
+.photo-gallery--subheading {
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4d96a9;
+  margin-bottom: 1rem;
+}
+
+.photo-gallery--heading {
+  max-width: 27.75rem;
+
+  margin: 0 auto;
+
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #28283d;
+  margin-bottom: 2rem;
+}
+
+.photo-gallery--text {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.44;
+  color: #87879d;
+}
+
+.vertical-line--photo-gallery {
+  position: absolute;
+  left: 50%;
+  top: -12.75rem;
+  height: 5.25rem;
+  border-left: 1px solid rgba(135, 135, 135, 0.25);
+}
+
+.number--photo-gallery {
+  position: absolute;
+  font-weight: 900;
+  line-height: 1.62;
+  color: #87879d;
+  left: 50%;
+  top: -5.75rem;
+  transform: translate(-50%, -50%);
+  border: 1px solid rgba(135, 135, 135, 0.25);
+  width: 3.5rem;
+  height: 3.5rem;
+  border-radius: 50%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
