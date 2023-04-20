@@ -1,0 +1,13 @@
+.photo-gallery__pics {
+  display: flex;
+  max-width: 69.375rem;
+  margin: 0 auto;
+  gap: 1.875rem;
+  margin-bottom: 5rem;
+}
+
+.photo-gallery__img {
+  display: block;
+  max-width: 100%;
+  border-radius: 8px;
+}

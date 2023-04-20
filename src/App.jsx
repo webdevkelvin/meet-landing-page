@@ -1,6 +1,6 @@
 import Header from "./components/Header";
-import Hero from "./components/Hero";
-import PhotoGallery from "./components/PhotoGallery";
+import Hero from "./components/hero/Hero";
+import PhotoGallery from "./components/photo_gallery/PhotoGallery";
 import Footer from "./components/Footer";
 
 import "./App.css";

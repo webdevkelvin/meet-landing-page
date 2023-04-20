@@ -3,3 +3,27 @@
   justify-content: center;
   margin-bottom: 3.875rem;
 }
+
+@media (max-width: 58.25em) {
+  .header {
+    margin-bottom: 4rem;
+  }
+}
+
+@media (max-width: 48em) {
+  .header {
+    margin-bottom: 3rem;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .header {
+    margin-bottom: 1rem;
+  }
+}
+
+@media (max-width: 24rem) {
+  .header {
+    margin-bottom: 0;
+  }
+}

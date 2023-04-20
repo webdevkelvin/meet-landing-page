@@ -1,0 +1,30 @@
+.photo-gallery__text-box {
+  text-align: center;
+  max-width: 33rem;
+  margin: 0 auto;
+}
+
+.photo-gallery__subheading {
+  font-weight: 900;
+  letter-spacing: 4px;
+  text-transform: uppercase;
+  color: #4d96a9;
+  margin-bottom: 1rem;
+}
+
+.photo-gallery__heading {
+  max-width: 27.75rem;
+  margin: 0 auto;
+  font-size: 2.5rem;
+  font-weight: 900;
+  line-height: 1.1;
+  color: #28283d;
+  margin-bottom: 2rem;
+}
+
+.photo-gallery__text {
+  font-size: 1.125rem;
+  font-weight: 500;
+  line-height: 1.44;
+  color: #87879d;
+}

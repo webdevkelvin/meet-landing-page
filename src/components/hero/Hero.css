@@ -1,0 +1,117 @@
+.hero {
+  max-width: 90rem;
+  margin: 0 auto;
+
+  display: flex;
+  justify-content: center;
+
+  text-align: center;
+  position: relative;
+  overflow-x: hidden;
+  height: 22.375rem;
+}
+
+.hero__actions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.hero--wrapper {
+  flex: 0 1 33.5rem;
+  align-self: flex-end;
+}
+
+@media (max-width: 80em) {
+  .hero {
+    height: 21.375rem;
+  }
+
+  .hero--wrapper {
+    max-width: 30rem;
+  }
+}
+
+@media (max-width: 75em) {
+  .hero {
+    height: 21rem;
+  }
+
+  .hero--wrapper {
+    max-width: 27.5rem;
+  }
+}
+
+@media (max-width: 71.75em) {
+  .hero {
+    height: 20.5rem;
+  }
+
+  .hero--wrapper {
+    max-width: 25rem;
+  }
+}
+
+@media (max-width: 66em) {
+  .hero {
+    height: 20rem;
+  }
+
+  .hero--wrapper {
+    max-width: 23rem;
+  }
+}
+
+@media (max-width: 63.25em) {
+  .hero {
+    height: 19.25rem;
+  }
+
+  .hero--wrapper {
+    max-width: 21.5rem;
+  }
+}
+
+@media (max-width: 58.25em) {
+  .hero {
+    overflow-x: auto;
+    height: auto;
+    gap: 4.5rem;
+    flex-direction: column;
+  }
+
+  .hero--wrapper {
+    flex: 0 1 auto;
+    align-self: center;
+  }
+}
+
+@media (max-width: 48em) {
+  .hero {
+    gap: 3rem;
+  }
+}
+
+@media (max-width: 37.5rem) {
+  .hero {
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 30rem) {
+  .hero--wrapper {
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+  }
+}
+
+@media (max-width: 24rem) {
+  .hero {
+    gap: 0;
+  }
+
+  .hero__actions {
+    flex-direction: column;
+    align-items: center;
+  }
+}
